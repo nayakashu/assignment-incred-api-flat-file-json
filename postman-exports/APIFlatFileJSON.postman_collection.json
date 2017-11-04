@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "APIFlatFileJSON",
+		"_postman_id": "b5396ce2-d95f-755f-82c1-0534ad1245a8",
+		"description": "InCred assignment for creating an API which receives JSON data as POST request and appends to a flat file with JSON extension.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Write To Separate Flat Files",
+			"request": {
+				"url": "localhost:3030/api/writeToSeparateFlatFiles/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"jsonData\": {\n\t\t\"BrandName\": \"InCred - FinTech\"\t\n\t}\n}"
+				},
+				"description": "Write To Separate Flat Files"
+			},
+			"response": []
+		},
+		{
+			"name": "Write To a Single Flat File",
+			"request": {
+				"url": "localhost:3030/api/writeToSingleFlatFile/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"jsonData\": {\n\t\t\"BrandName\": \"InCred - FinTech\"\t\n\t}\n}"
+				},
+				"description": "Write To a Single Flat File"
+			},
+			"response": []
+		}
+	]
+}

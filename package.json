@@ -1,0 +1,16 @@
+{
+  "name": "api_flat_file_json",
+  "version": "1.0.0",
+  "description": "Rest API which accepts data in json format and appends to flat file with json extension",
+  "main": "app.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "repository": {},
+  "author": "nayakashu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}

@@ -1,0 +1,8 @@
+# visual studio code
+.vscode
+
+# node_modules
+node_modules
+
+# output files
+output*.json
